@@ -1,12 +1,12 @@
 import { Image, SafeAreaView, ScrollView, StyleSheet, Text, View, Dimensions, TouchableOpacity } from 'react-native'
 import React, { useEffect } from 'react'
-import IconMenu from '../assests/IconMenu'
-import Logo from '../assests/logo'
+import IconMenu from '../images/IconMenu'
+import Logo from '../images/logo'
 
-const web3 = require('../assests/image-web-3-mobile.jpg')
-const retro = require('../assests/image-retro-pcs.jpg')
-const topLaptops = require('../assests/image-top-laptops.jpg')
-const gaming = require('../assests/image-gaming-growth.jpg')
+const web3 = require('../images/image-web-3-mobile.jpg')
+const retro = require('../images/image-retro-pcs.jpg')
+const topLaptops = require('../images/image-top-laptops.jpg')
+const gaming = require('../images/image-gaming-growth.jpg')
 const SCREEN_WIDTH = Dimensions.get('screen').width
 const SCREEN_HEIGHT = Dimensions.get('screen').height
 
